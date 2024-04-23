@@ -9,7 +9,7 @@ import os
 
 def send_email(message):
     host = "smtp.gmail.com"  # standard gmail smtp host
-    port - 465
+    port = 465
 
     username = "mjah.py@gmail.com"  # enter my app email
     password = os.getenv("PASSWORD")

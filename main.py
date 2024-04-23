@@ -13,4 +13,4 @@ content = request.json()
 for article in content["articles"]:
     print(article['title'])
 
-send_email("test message")
+send_email("test message again")
