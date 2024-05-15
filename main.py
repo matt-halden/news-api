@@ -1,6 +1,11 @@
 import requests
 from send_email import send_email
 
+# We can download an image into our file directory from the python console!
+# import requests, run response = requests.get(url), then run below where wb is write in binary mode
+# with open("image.jpg", "wb") as file:
+#     file.write(response.content)
+
 # API Key from newsapi.org, added "&language=en" to url to add that endpoint in the NewsAPI docs
 topic = "tesla"
 api_key = "5b552bb0035242d9a79f228899187725"
