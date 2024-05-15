@@ -1,4 +1,4 @@
-# What is the project?
+# News API - Email Updates
 
 This app accesses news APIs about whatever news you want to see. 
 
